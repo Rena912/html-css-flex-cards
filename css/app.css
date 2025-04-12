@@ -4,7 +4,7 @@
    box-sizing: border-box; 
 }
 
-/* DEBBUG */
+/* DEBUG */
 
 .debug .container {
     border: 2px solid black;
@@ -21,6 +21,8 @@
 
 .header {
     justify-items: center;
+    font-weight: bold;
+    color: rgb(243, 99, 192);
 }
 
 .container {
@@ -55,6 +57,11 @@ ol {
     width: 80px;
 }
 
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .card {
     background-color: rgb(0, 0, 10);
     color: white;
@@ -68,7 +75,7 @@ ol {
 .text-card {
     padding: 10px;
     flex-grow: 1;
-    font-size: 9pt;
+    font-size: 10pt;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
